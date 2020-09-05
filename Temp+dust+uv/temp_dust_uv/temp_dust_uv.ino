@@ -24,7 +24,7 @@ ML8511 light(ANALOGPIN, ENABLEPIN);
 //UV
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   bool status;
 
   // default settings

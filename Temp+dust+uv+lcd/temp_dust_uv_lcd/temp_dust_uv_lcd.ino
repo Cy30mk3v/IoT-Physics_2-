@@ -46,18 +46,13 @@ void setup() {
     while (1);
   }
 
-  lcd.backlight();
-  lcd.setCursor(1,0);
-  lcd.print("IOT MAKER VIETNAM");
-  lcd.setCursor(3,1);
-  lcd.print("Hello, world!");
 }
 
 void loop() { 
   //printTempValue();
   //printDustValue();
   //printUvValue();
-  //printLedValue();
+  //printLcdValue();
   //delay(delayTime);
 }
 
@@ -122,7 +117,7 @@ void printUvValue()
   Serial.println(" mW cm^2");
   delay(1000);
 }
-void printLedValue(){
+void printLcdValue(){
   lcd.setCursor(1,0);
   lcd.print("IOT MAKER VIETNAM");
   lcd.setCursor(3,1);
