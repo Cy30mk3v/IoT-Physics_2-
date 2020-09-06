@@ -30,8 +30,8 @@ const char* ssid = "Redmine";
 const char* password = "123456788";
 
 // Initialize Telegram BOT
-#define BOTtoken "1394806688:AAHrJuYyLeqjfHD9wHiLpzP-2BQ1dkuWjA0"  // your Bot Token (Get from Botfather)
-
+//#define BOTtoken "1394806688:AAHrJuYyLeqjfHD9wHiLpzP-2BQ1dkuWjA0"  // your Bot Token (Get from Botfather)
+#define BOTtoken "1320478417:AAEhCo53s1JKpG_w3XU5cDo3ZZOjSf2VUmc"
 // Use @myidbot to find out the chat ID of an individual or a group
 // Also note that you need to click "start" on a bot before it can
 // message you
